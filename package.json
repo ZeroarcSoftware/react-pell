@@ -1,6 +1,6 @@
 {
   "name": "react-pell",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "React component wrapping a HTML and Markdown editor based on the wysiwyg pell editor",
   "main": "build/index.js",
   "repository": "https://github.com/bpetetot/react-pell.git",
@@ -23,14 +23,13 @@
   "prepack": "yarn build",
   "dependencies": {
     "pell": "^1.0.6",
-    "react-dom": "^18.2.0",
     "showdown": "^2.1.0",
     "turndown": "^7.1.1",
     "turndown-plugin-gfm": "^1.0.2"
   },
   "peerDependencies": {
     "prop-types": "^15.5.10",
-    "react": "^18.2.0"
+    "react": "^19.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -41,11 +40,6 @@
     "babel-preset-es2015-rollup": "^3.0.0",
     "babel-preset-react": "^6.24.1",
     "cross-env": "^5.0.1",
-    "eslint": "^8.18.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^6.6.0",
-    "eslint-plugin-react": "^7.1.0",
     "npm-run-all": "^4.0.2",
     "rollup": "^0.45.2",
     "rollup-plugin-babel": "^2.7.1",
